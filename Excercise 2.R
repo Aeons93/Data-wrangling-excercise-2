@@ -1,9 +1,9 @@
 library(rio)
 #(#0)converted from xls to csv file. 
-convert("M:\\Rstudio projects and work\\Data-wrangling-excercise-2\\titanic3.xls", 
-        "M:\\Rstudio projects and work\\Data-wrangling-excercise-2\\titanic3.csv")
-titanic_original <- read.csv("M:\\Rstudio projects and work\\Data-wrangling-excercise-2\\titanic3.csv")
-titanic_original_2 <- read.csv("M:\\Rstudio projects and work\\Data-wrangling-excercise-2\\titanic3.csv")
+convert("~\\Data-wrangling-excercise-2\\titanic3.xls", 
+        "~\\Data-wrangling-excercise-2\\titanic3.csv")
+titanic_original <- read.csv("~\\Data-wrangling-excercise-2\\titanic3.csv")
+titanic_original_2 <- read.csv("~\\Data-wrangling-excercise-2\\titanic3.csv")
 #1 Port of embarkation
 #Changed missing values and replaced them with S
 for (i in 1:length(titanic_original$embarked))
