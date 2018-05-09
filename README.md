@@ -1,7 +1,7 @@
 # Data-wrangling-excercise-2
 
 # Main excercise file
-excercise2.R
+Excercise 2.R
 
 # Utilized Libraries
 1. rio
